@@ -11,9 +11,11 @@ Ce projet permet de gérer les clients associés a des comptes bancaires, on peu
 
 ## 🛠️ Utilisation
 Vous devez d'abord compiler les fichiers .cpp (Si vous n'avez pas le .exe) : 
+
 ![image](https://github.com/user-attachments/assets/61bfda14-9e27-4e78-a23a-5ae4eb8b7a23)
 
 Ensuite, vous devez exécuter main.exe : 
+
 ![image](https://github.com/user-attachments/assets/249082af-0517-4d88-b49a-a48425b64b00)
 
 ## 📧 Crédits
