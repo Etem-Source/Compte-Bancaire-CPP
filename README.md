@@ -18,6 +18,13 @@ Ensuite, vous devez exécuter main.exe :
 
 ![image](https://github.com/user-attachments/assets/249082af-0517-4d88-b49a-a48425b64b00)
 
+## 📚 Interface / Exemple
+
+Petite idée de l'interface : 
+
+![image](https://github.com/user-attachments/assets/51e08aaa-1273-4ae6-9014-15664a3ec368)
+
+
 ## 📧 Crédits
 * [Etem](https://github.com/Etem-Source)
 
