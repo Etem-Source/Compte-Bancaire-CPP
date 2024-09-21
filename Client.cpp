@@ -20,13 +20,13 @@ void Client::afficherClient() {
 }
 
 // Méthode pour modifier les informations du client
-void Client::modifierClient(string mod_nom, string mod_prenom, string mod_numcin, int mod_num) {
-    nom = mod_nom;
-    prenom = mod_prenom;
-    numcin = mod_numcin;
-    numTel = mod_num;
-    cout << "/Y\\ --> Client modifie avec succes !" << endl;
-}
+// void Client::modifierClient(string mod_nom, string mod_prenom, string mod_numcin, int mod_num) {
+//     nom = mod_nom;
+//     prenom = mod_prenom;
+//     numcin = mod_numcin;
+//     numTel = mod_num;
+//     cout << "/Y\\ --> Client modifie avec succes !" << endl;
+// }
 
 void Client::virementCompte(Client destinataire, float montant) 
 {
