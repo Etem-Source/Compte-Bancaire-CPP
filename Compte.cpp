@@ -57,7 +57,7 @@ void Compte::virementCompte(Compte compteDest, float montant)
     }
     else
     {
-        if (solde >= -50) 
+        if (solde >= -50 && solde - montant >= -50) 
         {
             solde -= montant;           // Débiter le montant du compte source
             compteDest.crediterCompte(montant);  // Crédite le montant au compte de destination (copie)
