@@ -28,6 +28,7 @@ class Compte
         void debiterCompte(int, float);   // Débite le compte
         void virementCompte(Compte, float); // Vireme
         void consulterCompte();             // Affiche les informations du compte
+        void commanderChequierCompte();
 };
 
 #endif
