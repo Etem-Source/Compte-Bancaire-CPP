@@ -1,5 +1,5 @@
 # 💸 Compte Bancaire
-Ce projet permet de gérer les clients associés a des comptes bancaires, on peut effectuer les tâches suivantes : 
+Ce projet permet de gérer les clients associés a des comptes bancaires, on peut y effectuer les tâches suivantes : 
 * Affichage d'un client (Informations Client + Informations Banque)
 * Créditer un client
 * Débiter un client
