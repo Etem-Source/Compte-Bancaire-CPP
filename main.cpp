@@ -51,6 +51,7 @@ int main()
     cout << " 2. Crediter client" << endl;
     cout << " 3. Debiter client" << endl;
     cout << " 4. Virement client" << endl;
+    cout << " 5. Commander chequier client" << endl; 
     cout << "" << endl;
     cout << "> Ordinateur" << endl;
     cout << " 0. Quittez" << endl;
@@ -249,6 +250,30 @@ int main()
         default:
             cout << " /!\\ Vous n'avez pas choisi entre 1 et 3 ... !" << endl;
             main();
+            break;
+        }
+        main();
+        break;
+    case 5:
+        system("cls");
+        
+        cout << "" << endl; 
+        cout << "> Gestion Clients Bancaires - Commander chequier client" << endl;
+        cout << "Choissisez le client qui va commander le chequier (1, 2 ou 3) : " << endl;
+        cin >> choixCommanderChequier;
+        switch (choixCommanderChequier)
+        {
+        case 1:
+            C1.commanderChequierCompte();
+            break;
+        case 2:
+            C2.commanderChequierCompte();
+            break;
+        case 3:
+            C3.commanderChequierCompte();
+            break;
+        default:
+            cout << " /!\\ Vous n'avez pas choisi entre 1 et 3 ... !" << endl;
             break;
         }
         main();
