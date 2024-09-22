@@ -80,3 +80,16 @@ void Compte::consulterCompte()
     cout << "RIB: " << rib << endl;
     cout << "/Y\\ --> Compte " << idUnique << " consulte avec succes !" << endl;
 }
+
+void Compte::commanderChequierCompte()
+{
+    if(chequier == 0)
+    {
+        cout << "/Y\\ --> Compte " << idUnique << " chequier commander avec succes !" << endl;
+        chequier = 1;
+    }
+    else
+    {
+        cout << "/!\\ --> Le compte " << idUnique << " possede deja un chequier !" << endl;
+    }
+}
