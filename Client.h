@@ -29,6 +29,7 @@ public:
     void crediterCompte(float);
     void debiterCompte(int, float);   // Débite le compte
     void consulterCompte();             // Affiche les informations du compte
+    void commanderChequierCompte();
 };
 
 #endif
