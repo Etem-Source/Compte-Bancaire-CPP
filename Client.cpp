@@ -46,3 +46,8 @@ void Client::consulterCompte()          // Affiche les informations du compte
 {
     compte.consulterCompte();
 }
+
+void Client::commanderChequierCompte()
+{
+    compte.commanderChequierCompte();
+}
