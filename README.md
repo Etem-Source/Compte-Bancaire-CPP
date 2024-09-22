@@ -4,6 +4,7 @@ Ce projet permet de gérer les clients associés a des comptes bancaires, on peu
 * Créditer un client
 * Débiter un client
 * Virement d'un client à un autre
+* Commander un chequier pour un client
 
 ## 💡 Prérequis
 * [G++ Compileur](https://sourceforge.net/projects/mingw/)
@@ -22,7 +23,7 @@ Ensuite, vous devez exécuter main.exe :
 
 Petite idée de l'interface : 
 
-![image](https://github.com/user-attachments/assets/51e08aaa-1273-4ae6-9014-15664a3ec368)
+![image](https://github.com/user-attachments/assets/e62db5ef-9f1e-4989-8674-da7920dc47a1)
 
 
 ## 📧 Crédits
