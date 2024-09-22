@@ -14,6 +14,7 @@ class Compte
         float solde;         // Solde du compte
         int codeSecret;      // Code secret à 4 chiffres
         string rib;          // RIB
+        int chequier;       // Chequier, si 0 = non, 1 = oui
 
     public:
         // Constructeur défaut
