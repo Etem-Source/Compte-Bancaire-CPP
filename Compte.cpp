@@ -49,7 +49,7 @@ void Compte::debiterCompte(int debiter_codesecret, float debiter_montant)
     }
 }
 
-void Compte::virementCompte(Compte compteDest, float montant) 
+void Compte::virementCompte(Compte &compteDest, float montant) 
 {
     if (montant <= 0) 
     {
