@@ -28,7 +28,7 @@ void Client::afficherClient() {
 //     cout << "/Y\\ --> Client modifie avec succes !" << endl;
 // }
 
-void Client::virementCompte(Client destinataire, float montant) 
+void Client::virementCompte(Client &destinataire, float montant) 
 {
     compte.virementCompte(destinataire.compte, montant);
 }
