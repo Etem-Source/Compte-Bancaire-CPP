@@ -25,7 +25,7 @@ public:
     void modifierClient(string, string, string, int);
 
     // Compte
-    void virementCompte(Client, float);
+    void virementCompte(Client &, float);
     void crediterCompte(float);
     void debiterCompte(int, float);   // Débite le compte
     void consulterCompte();             // Affiche les informations du compte
