@@ -27,7 +27,7 @@ class Compte
         // Méthodes pour les opérations sur le compte
         void crediterCompte(float); // Crédite le compte
         void debiterCompte(int, float);   // Débite le compte
-        void virementCompte(Compte, float); // Vireme
+        void virementCompte(Compte &, float); // Vireme
         void consulterCompte();             // Affiche les informations du compte
         void commanderChequierCompte();
 };
