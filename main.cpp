@@ -41,6 +41,7 @@ int main()
     int choixVirementCompte;
     int choixVirementCompteDestinataire;
     float choixVirementCompteMontant;
+    int choixCommanderChequier;
 
 
     // - - - - - - - - - - Menu - - - - - - - - - -    
