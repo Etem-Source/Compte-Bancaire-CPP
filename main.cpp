@@ -61,7 +61,7 @@ int main()
     switch (choix)
     {
     case 1:
-
+        system("cls");
 
         cout << "" << endl; 
         cout << "> Gestion Clients Bancaires - Afficher client" << endl;
