@@ -25,9 +25,9 @@ void afficherSaisie() {
     Compte compte3(50, 9876, "FR751000100010003"); // "
 
     // Création de trois clients avec leurs comptes respectifs
-    Client C1("Alias", "Etem", "FR-IRIB2875G718", 701020304, compte1); // Nom + Prénom + CIN + Num + CompteBancaire
-    Client C2("Dupont", "Jean", "FR-IRIB1234J567", 601020305, compte2); // "
-    Client C3("Martin", "Pierre", "FR-IRIB8901M234", 501020306, compte3); // "
+    Client C1("S", "Etem", "FR-IRIB2875G718", 701020304, compte1); // Nom + Prénom + CIN + Num + CompteBancaire
+    Client C2("G", "Corentin", "FR-IRIB1234J567", 601020305, compte2); // "
+    Client C3("P", "Luka", "FR-IRIB8901M234", 501020306, compte3); // "
 
 int main() 
 {
